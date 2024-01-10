@@ -3,7 +3,7 @@ import 'package:timeago/src/messages/lookupmessages.dart';
 /// French messages
 class FrMessages implements LookupMessages {
   @override
-  String prefixAgo() => 'il y a';
+  String prefixAgo() => '';
   @override
   String prefixFromNow() => "d'ici";
   @override
