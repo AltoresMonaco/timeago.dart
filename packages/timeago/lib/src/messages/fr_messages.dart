@@ -11,25 +11,25 @@ class FrMessages implements LookupMessages {
   @override
   String suffixFromNow() => '';
   @override
-  String lessThanOneMinute(int seconds) => "moins d'une minute";
+  String lessThanOneMinute(int seconds) => "1 min";
   @override
-  String aboutAMinute(int minutes) => 'environ une minute';
+  String aboutAMinute(int mins) => '1 min';
   @override
-  String minutes(int minutes) => 'environ $minutes minutes';
+  String mins(int mins) => '$mins mins';
   @override
-  String aboutAnHour(int minutes) => 'environ une heure';
+  String aboutAnHour(int mins) => '1 h';
   @override
-  String hours(int hours) => '$hours heures';
+  String hours(int hours) => '$hours h';
   @override
-  String aDay(int hours) => 'environ un jour';
+  String aDay(int hours) => ' 1 j';
   @override
-  String days(int days) => 'environ $days jours';
+  String days(int days) => ' $days j';
   @override
-  String aboutAMonth(int days) => 'environ un mois';
+  String aboutAMonth(int days) => '1 m';
   @override
-  String months(int months) => 'environ $months mois';
+  String months(int months) => ' $months mois';
   @override
-  String aboutAYear(int year) => 'un an';
+  String aboutAYear(int year) => '1 an';
   @override
   String years(int years) => '$years ans';
   @override
@@ -39,7 +39,7 @@ class FrMessages implements LookupMessages {
 /// French shott messages
 class FrShortMessages implements LookupMessages {
   @override
-  String prefixAgo() => 'il y a';
+  String prefixAgo() => '';
   @override
   String prefixFromNow() => "d'ici";
   @override
@@ -47,25 +47,25 @@ class FrShortMessages implements LookupMessages {
   @override
   String suffixFromNow() => '';
   @override
-  String lessThanOneMinute(int seconds) => "moins d'une minute";
+  String lessThanOneMinute(int seconds) => "1 min";
   @override
-  String aboutAMinute(int minutes) => 'une minute';
+  String aboutAMinute(int mins) => '1 min';
   @override
-  String minutes(int minutes) => '$minutes minutes';
+  String mins(int mins) => '$mins mins';
   @override
-  String aboutAnHour(int minutes) => 'une heure';
+  String aboutAnHour(int mins) => '1 h';
   @override
-  String hours(int hours) => '$hours heures';
+  String hours(int hours) => '$hours h';
   @override
-  String aDay(int hours) => 'un jour';
+  String aDay(int hours) => '1 j';
   @override
-  String days(int days) => '$days jours';
+  String days(int days) => '$days j';
   @override
-  String aboutAMonth(int days) => 'un mois';
+  String aboutAMonth(int days) => '1 m';
   @override
-  String months(int months) => '$months mois';
+  String months(int months) => '$months m';
   @override
-  String aboutAYear(int year) => 'un an';
+  String aboutAYear(int year) => '1 an';
   @override
   String years(int years) => '$years ans';
   @override
