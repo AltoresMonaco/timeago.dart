@@ -1,4 +1,4 @@
-import 'package:timeago/src/messages/lookupmessages.dart';
+import '../messages/lookupmessages.dart';
 
 /// Azeri Messages
 class AzMessages implements LookupMessages {

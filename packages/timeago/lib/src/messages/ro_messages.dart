@@ -1,4 +1,4 @@
-import 'package:timeago/src/messages/lookupmessages.dart';
+import '../messages/lookupmessages.dart';
 
 /// Romanian messages
 class RoMessages implements LookupMessages {

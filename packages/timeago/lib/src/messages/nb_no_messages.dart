@@ -1,4 +1,4 @@
-import 'package:timeago/src/messages/lookupmessages.dart';
+import '../messages/lookupmessages.dart';
 
 /// Norwegian-Bokm-Norway short messages
 class NbNoShortMessages implements LookupMessages {

@@ -1,4 +1,4 @@
-import 'package:timeago/src/messages/lookupmessages.dart';
+import '../messages/lookupmessages.dart';
 
 /// Malay-Malaysia messages
 class MsMyMessages implements LookupMessages {

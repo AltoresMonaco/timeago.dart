@@ -1,4 +1,4 @@
-import 'package:timeago/src/messages/lookupmessages.dart';
+import '../messages/lookupmessages.dart';
 
 /// Belarusian messages (code based by russian and ukrainian translations)
 class BeMessages implements LookupMessages {

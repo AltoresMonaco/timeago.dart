@@ -1,4 +1,4 @@
-import 'package:timeago/src/messages/lookupmessages.dart';
+import '../messages/lookupmessages.dart';
 
 /// French messages
 class FrMessages implements LookupMessages {
@@ -15,7 +15,7 @@ class FrMessages implements LookupMessages {
   @override
   String aboutAMinute(int mins) => '1 min';
   @override
-  String mins(int mins) => '$mins mins';
+  String minutes(int mins) => '$mins mins';
   @override
   String aboutAnHour(int mins) => '1 h';
   @override
@@ -51,7 +51,7 @@ class FrShortMessages implements LookupMessages {
   @override
   String aboutAMinute(int mins) => '1 min';
   @override
-  String mins(int mins) => '$mins mins';
+  String minutes(int mins) => '$mins mins';
   @override
   String aboutAnHour(int mins) => '1 h';
   @override

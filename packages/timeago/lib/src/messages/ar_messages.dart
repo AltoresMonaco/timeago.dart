@@ -1,4 +1,4 @@
-import 'package:timeago/src/messages/lookupmessages.dart';
+import '../messages/lookupmessages.dart';
 
 /// Arabic Messages
 class ArMessages implements LookupMessages {
@@ -26,7 +26,6 @@ class ArMessages implements LookupMessages {
 
   @override
   String aboutAMinute(int minutes) => 'دقيقة تقريباً';
-  
 
   @override
   String minutes(int minutes) {
